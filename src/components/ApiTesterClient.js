@@ -614,9 +614,11 @@ const ApiTesterClient = ({ onRunTest, onSendRequest }) => {
                 )}
               </div>
             ) : (
-              <div className="text-center">
-                Run a load test to see detailed metrics
-              </div>
+<div className="flex justify-center items-center mt-10">
+  <h3 className="text-2xl font-bold text-gray-800 font-sans">
+    Scroll Down For Detailed Metrics
+  </h3>
+</div>
             )}
           </div>
         </div>
